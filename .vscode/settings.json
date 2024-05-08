@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "xlocale": "cpp",
+        "cmath": "cpp"
     }
 }
