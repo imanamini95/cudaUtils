@@ -1,5 +1,5 @@
-// nvcc -o unqiue_index_calculation .\unqiue_index_calculation.cu
-// .\unqiue_index_calculation.exe
+// nvcc -o unqiue_index_calculation ./Release/output/unqiue_index_calculation.cu
+// ./Release/output/unqiue_index_calculation.exe
 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"

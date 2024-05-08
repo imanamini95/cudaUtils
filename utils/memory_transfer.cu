@@ -1,5 +1,5 @@
-// nvcc -o memory_transfer .\memory_transfer.cu
-// .\memory_transfer.exe
+// nvcc -o memory_transfer ./Release/output/memory_transfer.cu
+// ./Release/output/memory_transfer.exe
 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"

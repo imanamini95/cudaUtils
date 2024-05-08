@@ -1,5 +1,5 @@
-// nvcc -o organization_of_threads .\organization_of_threads.cu
-// .\organization_of_threads.exe
+// nvcc -o organization_of_threads ./Release/output/organization_of_threads.cu
+// ./Release/output/organization_of_threads.exe
 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
