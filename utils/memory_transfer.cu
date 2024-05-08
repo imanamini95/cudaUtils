@@ -1,4 +1,4 @@
-// nvcc -o memory_transfer ./Release/output/memory_transfer.cu
+// nvcc -o ./Release/output/memory_transfer ./utils/memory_transfer.cu
 // ./Release/output/memory_transfer.exe
 
 #include "cuda_runtime.h"

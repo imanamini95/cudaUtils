@@ -1,4 +1,4 @@
-// nvcc -o organization_of_threads ./Release/output/organization_of_threads.cu
+// nvcc -o ./Release/output/organization_of_threads ./utils/organization_of_threads.cu
 // ./Release/output/organization_of_threads.exe
 
 #include "cuda_runtime.h"

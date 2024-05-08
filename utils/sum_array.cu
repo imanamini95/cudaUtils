@@ -1,4 +1,4 @@
-// nvcc -o sum_array ./Release/output/sum_array.cu common.cpp
+// nvcc -o ./Release/output/sum_array ./utils/sum_array.cu ./utils/common.cpp
 // ./Release/output/sum_array.exe
 
 #include "cuda_runtime.h"

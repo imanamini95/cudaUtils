@@ -1,4 +1,4 @@
-// nvcc -o unqiue_index_calculation ./Release/output/unqiue_index_calculation.cu
+// nvcc -o ./Release/output/unqiue_index_calculation ./utils/unqiue_index_calculation.cu
 // ./Release/output/unqiue_index_calculation.exe
 
 #include "cuda_runtime.h"

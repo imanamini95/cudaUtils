@@ -1,5 +1,5 @@
-// build nvcc -o hello_cuda ./Release/output/hello_cuda.cu
-// run ./Release/output/hello_cuda.exe
+// nvcc -o ./Release/output/hello_cuda ./utils/hello_cuda.cu
+// ./Release/output/hello_cuda.exe
 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
