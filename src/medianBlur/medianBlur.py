@@ -35,9 +35,19 @@ def medianBlur(input_image, window_size):
 
 # Example usage
 if __name__ == "__main__":
-    input_image = np.random.randint(0, 255, size=(512, 512), dtype=np.int32)
+    import time
+    import cv2
+
+    input_image = np.random.randint(0, 255, size=(9999, 9999), dtype=np.uint8)
     window_size = 3
 
-    output_image = medianBlur(input_image, window_size)
+    start_time = time.time()
+    cuda_result = medianBlur(input_image, window_size)
+    cuda_time = time.time() - start_time
 
-    print("output_image:", output_image)
+    start_time = time.time()
+    cv2_result = cv2.medianBlur(input_image, window_size)
+    cv2_time = time.time() - start_time
+
+    print("Time taken by cv2.medianBlur:", cv2_time)
+    print("Time taken by CUDA medianBlur:", cuda_time)
